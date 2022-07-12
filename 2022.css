@@ -1,0 +1,125 @@
+
+
+
+/*** main ***/
+
+.main-section{
+}
+
+content ul {
+   margin: 0;
+}
+
+.content .cont-section .title h1 {
+   margin: 0 0 4px;
+   font-size: 24px;
+}
+.content .cont-section .title span {
+   margin: 0;
+}
+
+.content .cont-section .box .area,
+.content .cont-section .b-menu .article a,
+.content .cont-section .info-menu li a {
+   padding: 24px 30px;
+}
+.content .cont-section .info-menu li a {
+   border-radius: 10px;
+}
+
+.content .cont-section .type-wrap .more,
+.content .cont-section .b-menu .article:first-child .more,
+.content .cont-section .b-menu .article .more{
+   position: absolute;
+   bottom: 30px;
+}
+
+.content .cont-section .b-menu .article:nth-child(3) {
+   position: relative;
+}
+.content .cont-section .b-menu .onbtn {
+   top: 46%;
+}
+
+.content .cont-section .info-menu li a .name span {
+   margin-bottom: 4px;
+}
+.content .cont-section .info-menu li a .gobtn {
+   border-radius: 36px;
+   width: 100px;
+   height: 36px;
+   line-height: 36px;
+   font-size: 14px;
+   font-weight: 500;
+   position: absolute;
+   right: 30px;
+   bottom: 24px;
+}
+
+.cont-section .b-graph .b-tab {
+   top: 100px;
+   right: 30px;
+}
+.content .cont-section .b-graph .txtbox {
+   padding: 10px 30px;
+}
+.content .b-info .title {
+   margin-bottom: 60px;
+}
+
+
+.content .cont-section .b-cate li a {
+   padding: 24px 30px 80px;
+}
+.content .cont-section .b-cate li:first-child a {
+   background: #fff url(../images/bcate_img01.png) no-repeat 92% 70%;
+}
+.content .cont-section .b-cate li:last-child a {
+   background: #fff url(../images/bcate_img02.png) no-repeat 92% 70%;
+}
+.content .cont-section .type-wrap .typelist .swiper-button-prev {
+   left: -55px;
+}
+.content .cont-section .type-wrap .typelist .swiper-button-next {
+   right: -55px;
+}
+
+.content .cont-section .type-wrap .typelist {
+   width: 46%;
+   float: none;
+   position: absolute;
+   margin-right: 30px;
+   top: 62%;
+   right: 50px;
+   transform: translate(0%, -50%);
+}
+.content .cont-section .type-wrap .typelist .swiper-pagination {
+   bottom: -26%;
+}
+
+
+@media screen and (min-width:1920px){
+   
+}
+
+@media screen and (max-width:1600px) {
+   .content .cont-section .b-menu .onbtn {
+      top: 36%;
+   }
+   
+}
+
+@media screen and (max-width:1280px) {
+}
+
+@media screen and (max-width:1100px) {
+}
+
+@media screen and (max-width:768px){
+}
+
+@media screen and (max-width:640px) {
+}
+
+@media screen and (max-width:360px) {
+}
